@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const app = (0, express_1.default)();
-const PORT = (_a = process.env.PORT) !== null && _a !== void 0 ? _a : 8000; // Allow dynamic PORT setting (Heroku)
+const PORT = (_a = process.env.PORT) !== null && _a !== void 0 ? _a : 10000; // Allow dynamic PORT setting (Heroku)
 // Define GET endpoint(s)
 const possibleWords = ["Apple", "Bases", "Birds", "Crowd", "Crack", "Delta", "Doubt", "Dough", "Flyer", "Grand",
     "Giant", "Hello", "Handy", "Igloo", "Karat", "Kayak", "Leeds", "Leary", "Matte", "Never",
